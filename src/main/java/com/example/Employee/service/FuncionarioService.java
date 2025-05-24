@@ -1,4 +1,4 @@
-package com.example.Employee.model;
+package com.example.Employee.service;
 
 import com.example.Employee.model.Funcionario;
 import com.example.Employee.repository.FuncionarioRepository;
