@@ -1,6 +1,6 @@
 package com.example.Employee.service;
 
-import com.example.Employee.model.Funcionario;
+import com.example.Employee.entity.Funcionario;
 import com.example.Employee.repository.FuncionarioRepository;
 import org.springframework.stereotype.Service;
 
@@ -10,9 +10,10 @@ import java.util.Optional;
 @Service
 public class FuncionarioService {
 
-     private final FuncionarioRepository repository;
+    private final FuncionarioRepository repository;
 
     public FuncionarioService(FuncionarioRepository repository) {
+
         this.repository = repository;
     }
 

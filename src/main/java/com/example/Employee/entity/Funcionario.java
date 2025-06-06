@@ -1,12 +1,9 @@
-package com.example.Employee.model;
+package com.example.Employee.entity;
 
 import jakarta.persistence.*;
 
-import javax.naming.Name;
-
 @Entity
-@Table(name = "funcionario")
-
+@Table(name = "funcionarios")
 public class Funcionario {
 
     @Id
@@ -24,6 +21,10 @@ public class Funcionario {
         this.cargo = cargo;
         this.salario = salario;
         this.departamento = departamento;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getNome() {
