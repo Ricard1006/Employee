@@ -15,6 +15,9 @@ public class Funcionario {
     private double salario;
     private String departamento;
 
+    public Funcionario() {
+    }
+
     public Funcionario(String nome, String cpf, String cargo, double salario, String departamento) {
         this.nome = nome;
         this.cpf = cpf;
