@@ -1,4 +1,4 @@
-package com.example.Employee;
+package ricardo.products.Employee;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

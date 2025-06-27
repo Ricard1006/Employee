@@ -1,7 +1,7 @@
-package com.example.Employee.service;
+package ricardo.products.Employee.service;
 
-import com.example.Employee.entity.Funcionario;
-import com.example.Employee.repository.FuncionarioRepository;
+import ricardo.products.Employee.entity.Funcionario;
+import ricardo.products.Employee.repository.FuncionarioRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

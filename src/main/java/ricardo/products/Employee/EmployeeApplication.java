@@ -1,6 +1,6 @@
-package com.example.Employee;
+package ricardo.products.Employee;
 
-import com.example.Employee.repository.FuncionarioRepository;
+import ricardo.products.Employee.repository.FuncionarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

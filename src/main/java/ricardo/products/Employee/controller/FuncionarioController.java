@@ -1,14 +1,14 @@
-package com.example.Employee.controller;
+package ricardo.products.Employee.controller;
 
-import com.example.Employee.entity.Funcionario;
-import com.example.Employee.service.FuncionarioService;
+import ricardo.products.Employee.entity.Funcionario;
+import ricardo.products.Employee.service.FuncionarioService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/funcionarios")
+@RequestMapping("/v1/funcionarios")
 public class FuncionarioController {
 
     private final FuncionarioService service;
